@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: red;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header-logo{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+
+ul{
+    display: flex;
+    height: 55px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    
+    
+}
+
+ul > li > a:hover{
+    color: blue;
+    background-color: black;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    transition: 1s all;
+    
+}
